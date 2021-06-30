@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GISOLUCOES">
+  <DataContextMoniker Name="/GISOLUCOESDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ee5cf66a-139d-4c7d-a686-7216d7058fc9" absoluteBounds="0.75, 1, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/GISOLUCOESDataContext/cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05167916-d9a1-41b0-aac3-53bb9e416364" absoluteBounds="0.765, 1.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6e041e3-5b32-4127-a92c-e57d324897e9" absoluteBounds="3.5, 1.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/GISOLUCOESDataContext/usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba59e5aa-665a-4ab8-b910-0b501f991c07" absoluteBounds="3.515, 1.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.45274983723958); (3.5 : 2.45274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/GISOLUCOESDataContext/cliente/cliente_usuario" />
+      <nodes>
+        <classShapeMoniker Id="ee5cf66a-139d-4c7d-a686-7216d7058fc9" />
+        <classShapeMoniker Id="a6e041e3-5b32-4127-a92c-e57d324897e9" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
